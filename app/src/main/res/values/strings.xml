@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">此刻</string>
+    <string name="request_verify_code">验证码</string>
+</resources>
