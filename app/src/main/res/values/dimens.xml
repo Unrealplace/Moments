@@ -14,4 +14,11 @@
     <dimen name="dp8">8dp</dimen>
     <dimen name="dp50">50dp</dimen>
     <dimen name="dp160">160dp</dimen>
+    <dimen name="dp45">45dp</dimen>
+    <dimen name="text_small_more">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_large_more">20sp</dimen>
+    <dimen name="dp12">12dp</dimen>
 </resources>

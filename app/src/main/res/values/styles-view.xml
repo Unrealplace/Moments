@@ -1,0 +1,92 @@
+<resources>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Black" parent="Text">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.SmallMore" parent="Text">
+        <item name="android:textSize">@dimen/text_small_more</item>
+    </style>
+
+    <style name="Text.Small" parent="Text">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="Text.Normal" parent="Text">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Text.Large" parent="Text">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="Text.LargeMore" parent="Text">
+        <item name="android:textSize">@dimen/text_large_more</item>
+    </style>
+
+    <style name="Text.SmallMore.Black" parent="Text.SmallMore">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Small.Black" parent="Text.Small">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Normal.Black" parent="Text.Normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Large.Black" parent="Text.Large">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.LargeMore.Black" parent="Text.LargeMore">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.SmallMore.White" parent="Text.SmallMore">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.Small.White" parent="Text.Small">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.Normal.White" parent="Text.Normal">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.Large.White" parent="Text.Large">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.LargeMore.White" parent="Text.LargeMore">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.SmallMore.MainColor" parent="Text.SmallMore">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="Text.Small.MainColor" parent="Text.Small">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="Text.Normal.MainColor" parent="Text.Normal">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="Text.Large.MainColor" parent="Text.Large">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="Text.LargeMore.MainColor" parent="Text.LargeMore">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+</resources>

@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">此刻</string>
     <string name="request_verify_code">验证码</string>
+    <string name="cancel">取消</string>
+    <string name="publish">发表</string>
+    <string name="post_info">说点什么吧。。。</string>
+    <string name="movie">电影</string>
+    <string name="life">生活</string>
+    <string name="travel">旅行</string>
+    <string name="scene">风景</string>
+    <string name="technology_fans">技术控</string>
+    <string name="fit_fan">健身达人</string>
+    <string name="music">音乐</string>
+    <string name="si_fei_zhai">死肥宅</string>
+    <!--  电影，生活，音乐，旅行，阅读，美食，爱科技，风景，在路上，曾经小小少年，地理，小哥哥，
+小姐姐，技术控，死肥宅，不良青年，文艺范，健身达人 -->
+
+    <string-array name="tags">
+        <item>@string/movie</item>
+        <item>@string/scene</item>
+        <item>@string/fit_fan</item>
+        <item>@string/si_fei_zhai</item>
+        <item>@string/music</item>
+        <item>@string/technology_fans</item>
+    </string-array>
+
 </resources>
