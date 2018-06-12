@@ -7,6 +7,20 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
+    signingConfigs {
+        release {
+            keyAlias 'moments'
+            keyPassword 'liangzai123'
+            storeFile file('D:/Android/moments.jks')
+            storePassword 'liangzai123'
+        }
+        debug {
+            keyAlias 'moments'
+            keyPassword 'liangzai123'
+            storeFile file('D:/Android/moments.jks')
+            storePassword 'liangzai123'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.sdl.moments"
@@ -18,11 +32,14 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            signingConfig signingConfigs.debug
+        }
     }
-
     dataBinding {
         enabled true
     }
@@ -33,13 +50,12 @@ kapt {  // kapt 配置
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
     //material design
     implementation 'com.android.support.constraint:constraint-layout:1.1.1'
     implementation 'com.android.support:design:27.1.1'
@@ -47,7 +63,6 @@ dependencies {
     implementation 'com.android.support:cardview-v7:27.1.1'
     //权限检查
     implementation 'me.weyye.hipermission:library:1.0.7'
-
     //retrofit
     implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
@@ -57,24 +72,17 @@ dependencies {
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     //阿里的json
     implementation 'com.alibaba:fastjson:1.2.29'
-
     //图片处理
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     kapt 'com.github.bumptech.glide:compiler:4.7.1'
-
     // 底部菜单
     implementation('com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar') {
         exclude group: 'com.android.support', module: 'support-v4'
     }
-
     implementation 'com.qiniu:qiniu-android-sdk:7.3.12'
-
     //google flex
     implementation 'com.google.android:flexbox:1.0.0'
-
     implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
-
-    // DataBinding 注解处理依赖
-//    kapt 'com.android.databinding:compiler:3.1.2'
-
+    kapt 'com.android.databinding:compiler:3.1.3'
+    implementation 'com.orhanobut:logger:2.2.0'
 }

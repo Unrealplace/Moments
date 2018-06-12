@@ -21,4 +21,8 @@
     <dimen name="text_large">18sp</dimen>
     <dimen name="text_large_more">20sp</dimen>
     <dimen name="dp12">12dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp85">85dp</dimen>
 </resources>

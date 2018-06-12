@@ -35,14 +35,20 @@
 
     <!-- 这个用来看照片，最多九张 -->
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        style="@style/Text.Normal.Black"
+        android:text="@string/tag_select"
+        android:layout_marginTop="@dimen/dp5"/>
     <!-- 标签选择 -->
     <com.google.android.flexbox.FlexboxLayout
         android:id="@+id/flexBoxLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp5"
         app:justifyContent="flex_start"
         app:alignContent="flex_start"
         app:flexDirection="row"

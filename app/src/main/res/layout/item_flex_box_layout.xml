@@ -2,4 +2,11 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/text_tag"
-    style="@style/Text.SmallMore.Black"/>
+    style="@style/Text.SmallMore.Black"
+    android:paddingStart="@dimen/dp5"
+    android:paddingEnd="@dimen/dp5"
+    android:paddingTop="@dimen/dp3"
+    android:paddingBottom="@dimen/dp3"
+    android:background="@drawable/radius_border_black"
+    android:layout_marginLeft="@dimen/dp8"
+    android:layout_marginTop="@dimen/dp4"/>
