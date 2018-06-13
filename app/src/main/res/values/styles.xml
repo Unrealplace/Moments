@@ -13,4 +13,13 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!-- Toolbar Activity theme. -->
+    <style name="ToolbarActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
 </resources>
