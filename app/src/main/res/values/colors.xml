@@ -7,7 +7,28 @@
     <color name="main_color">#ff1afa29</color>
     <color name="color_f6">#f6f6f6</color>
 
-    <color name="color_text_555555">#555555</color>
+    <color name="color_text_555555">#555555</color><!--字体主色调-->
+    <color name="color_text_888888">#888888</color><!--字体副色调-->
+    <color name="color_text_ff9059">#ff9059</color><!--积分text色-->
+    <color name="color_text_5c9ff0">#5c9ff0</color>
+    <color name="color_text_ffffff">#ffffff</color>
+    <color name="color_text_ff7895">#ff7895</color>
+    <color name="color_text_c2c2c2">#c2c2c2</color>
+
+    <color name="color_bg_f5f5f5">#f5f5f5</color>  <!--背景色-->
+    <color name="color_bg_ffffff">#ffffff</color>
+    <color name="color_bg_dbdbdb">#dbdbdb</color>
+    <color name="color_bg_e6e6e6">#e6e6e6</color>
+    <color name="color_bg_null">#00000000</color>
+    <color name="color_bg_ff7895">#ff7895</color>
+    <color name="color_bg_f0f0f0">#f0f0f0</color>
+
+    <color name="color_bg_e93d3d">#E93D3D</color>
+
+
+
+    <!--状态 -->
+    <color name="color_text_59c85f">#59C85F</color>
 
 
 </resources>
