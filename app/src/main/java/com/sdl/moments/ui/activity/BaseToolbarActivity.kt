@@ -22,7 +22,7 @@ import com.sdl.moments.R.id.root_layout
 abstract class BaseToolbarActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-         setTheme(R.style.ToolbarActivityTheme)
+        setTheme(R.style.ToolbarActivityTheme)
         mContext = this
         // 这句很关键，注意是调用父类的方法
         super.setContentView(R.layout.activity_base_toolbar)

@@ -1,5 +1,7 @@
 package com.sdl.eyepetizer.net
 
+import com.sdl.moments.model.BaseResult
+import com.sdl.moments.model.User
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
@@ -25,7 +27,7 @@ object NetClient {
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl("http://192.168.11.81:9019/moments/")
+                .baseUrl("http://173ur96139.iok.la:49037/moments/")
                 .build()
         apiService = retrofit.create(ApiService::class.java)
     }
@@ -35,6 +37,10 @@ object NetClient {
      */
     fun getQiniuToken(): Observable<String> {
         return threadTransform(apiService.getFirstHomeData())
+    }
+
+    fun loginByUsername(username: String,password: String): Observable<BaseResult<User>> {
+        return threadTransform(apiService.loginByUsername(username, password))
     }
 
     private fun <T> threadTransform(observable: Observable<T>) : Observable<T> {
