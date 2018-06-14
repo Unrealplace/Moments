@@ -1,3 +1,96 @@
 <resources>
     <string name="app_name">android_common_lib</string>
+
+    <!--首页 start-->
+    <string name="str_home">首页</string>
+    <string name="str_more">更多</string>
+    <string name="str_my">我的</string>
+    <string name="str_more_see">查看更多</string>
+    <string name="str_message">消息</string>
+    <string name="str_personal_pager">个人页面</string>
+    <!--首页 end -->
+
+
+    <!--登录注册-->
+    <string name="str_login_register">登录/注册</string>
+    <string name="str_cannot_null">输入内容不可为空</string>
+    <string name="str_null">未知</string>
+    <string name="str_register">注册</string>
+    <string name="str_login">登录</string>
+    <string name="str_phone">手机号</string>
+    <string name="str_account">账号</string>
+    <string name="str_password">密码</string>
+    <string name="str_now_login">立即登录</string>
+    <string name="str_now_register">立即注册</string>
+    <string name="str_find_password">找回密码</string>
+    <string name="str_input_phone">请输入手机号</string>
+    <string name="str_input_username">请输入用户名</string>
+    <string name="str_input_psw">请输入密码</string>
+    <string name="str_input_psw_sure">确认密码</string>
+    <string name="str_register_commend">温馨提示:建议使用8-24位数字,英文两种组合</string>
+    <string name="str_register_again">我已阅读，并同意</string>
+
+    <string name="str_phone_lawful">请输入合法的手机号!</string>
+    <string name="str_verity_size">请输入5位数字验证码!</string>
+    <string name="str_password_size">请输入至少6位长度的密码!</string>
+
+    <!--设置-->
+    <string name="str_setting">设置</string>
+    <string name="str_gender">性别</string>
+    <string name="str_head_portrait">个人头像</string>
+    <string name="str_nickname">昵称</string>
+    <string name="str_city_location">所在城市</string>
+    <string name="str_user_birthday">我的生日</string>
+    <string name="str_feedback">意见反馈</string>
+    <string name="str_clear_cache">清除缓存</string>
+    <string name="str_set_push">消息推送设置</string>
+    <string name="str_check_updata">检查更新</string>
+    <string name="str_personal_data">个人资料</string>
+    <string name="str_delivery_address">收货地址</string>
+    <string name="str_register_time">注册时间</string>
+
+    <!--安全-->
+    <string name="str_has_bind_phone">已绑定手机号码:</string>
+    <string name="str_security_code">安全验证</string>
+    <string name="str_change_bind">修改绑定</string>
+
+    <string name="str_bind_phone">绑定手机</string>
+    <string name="str_change_bind_phone">修改绑定手机</string>
+    <string name="str_input_newphone">请输入新的手机号</string>
+    <string name="str_bind_phone_show">您已绑定手机号:%1$s,该手机用于登录,更换后此号码将无法登录。</string>
+
+    <string name="str_change">确认更换</string>
+    <string name="str_bind">绑定</string>
+    <string name="str_submit">提交</string>
+
+    <!--地址-->
+    <string name="str_add_address">添加地址</string>
+    <string name="str_edit_address">编辑地址</string>
+    <string name="str_address">收货地址</string>
+    <string name="str_default_address">默认地址</string>
+    <string name="str_setdefault_address">设为默认</string>
+
+    <string name="str_choose_address">选择地址</string>
+
+
+    <!--支付  start-->
+    <string name="str_pay_method">支付方式</string>
+    <string name="str_account_balance">账户余额</string>
+    <string name="str_balance">(余额:￥%1$s)</string>
+    <string name="str_balance2"> 余额:￥%1$s </string>
+    <string name="str_pay_num">支付金额:</string>
+
+    <string name="str_balance_pay"> 余额支付:￥%1$s </string>
+    <string name="str_wxpay">微信支付</string>
+    <string name="str_alipay">支付宝支付</string>
+    <string name="str_pay_unionpay">银联在线支付</string>
+
+    <string name="str_pay_time">支付剩余时间:</string>
+    <string name="str_pay_way">选择其他支付方式:</string>
+    <string name="str_pay_more">仍需支付:￥%1$s</string>
+    <string name="str_pay_account_type_ali">支付宝账户</string>
+    <string name="str_pay_account_type_wx">微信账户</string>
+    <string name="str_pay_success">支付成功</string>
+    <string name="str_pay_sure">确认支付</string>
+    <!--支付 end-->
 </resources>

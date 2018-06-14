@@ -17,7 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:replace="android:theme">
+        <!--主页-->
         <activity android:name=".ui.activity.MainActivity"></activity>
+        <!--登录-->
         <activity android:name=".ui.activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +29,7 @@
             >
         </activity>
         <activity android:name=".ui.activity.PostActivity"></activity>
+        <!--注册-->
         <activity android:name=".ui.activity.RegisterActivity"></activity>
     </application>
 
